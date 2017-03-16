@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esparza.bmiapplication.CaloriesBurned">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_many_times_a_week_do_you_exercise"
+        android:id="@+id/exeTV"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textIsSelectable="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/aWeekET"
+        android:text="@string/times"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/exeTV"
+        android:layout_alignRight="@+id/LBSperWeekET"
+        android:layout_alignEnd="@+id/LBSperWeekET" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_intense_1_10"
+        android:id="@+id/howTV"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/aWeekET"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/howET"
+        android:inputType="number"
+        android:text="@string/intense"
+        android:layout_below="@+id/howTV"
+        android:layout_alignLeft="@+id/aWeekET"
+        android:layout_alignStart="@+id/aWeekET"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_active_is_your_work_0_10_0_desk_job_10_construction_work"
+        android:id="@+id/intenseTV"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/howET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calories_burned_per_week"
+        android:id="@+id/perWeekTV"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/perWeekTV2"
+        android:layout_alignEnd="@+id/perWeekTV2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00000"
+        android:id="@+id/perWeekET"
+        android:layout_alignTop="@+id/perWeekTV"
+        android:layout_alignRight="@+id/exeTV"
+        android:layout_alignEnd="@+id/exeTV"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/if_you_consume_2000_calories_a_day_you_would_lose"
+        android:id="@+id/conTV1"
+        android:layout_marginTop="48dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/perWeekTV"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00"
+        android:id="@+id/LBSperWeekET"
+        android:layout_below="@+id/conTV1"
+        android:layout_alignRight="@+id/workET"
+        android:layout_alignEnd="@+id/workET"
+        android:layout_marginTop="23dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/per_week"
+        android:id="@+id/perWeekTV2"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/LBSperWeekET"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/workET"
+        android:text="@string/_0"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/intenseTV"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:id="@+id/calculate"
+        android:layout_below="@+id/workET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

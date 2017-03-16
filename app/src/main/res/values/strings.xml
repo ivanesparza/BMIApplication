@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BMIApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="weight">000</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="feet">Feet</string>
+    <string name="inches">Inches</string>
+    <string name="feet_num">0</string>
+    <string name="inches_num">0</string>
+    <string name="get_your_bmi">Get Your BMI</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="bmi">000</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_many_times_a_week_do_you_exercise">How Many Times a week do you exercise?</string>
+    <string name="times">0</string>
+    <string name="how_intense_1_10">How intense? (1-10)</string>
+    <string name="intense">0</string>
+    <string name="how_active_is_your_work_0_10_0_desk_job_10_construction_work">How active is your work? (0-10)(0 = Desk Job, 10 = Construction Work)</string>
+    <string name="calories_burned_per_week">Calories burned per week</string>
+    <string name="_00000">00000</string>
+    <string name="if_you_consume_2000_calories_a_day_you_would_lose">If you consume 2000 Calories a day, you would lose</string>
+    <string name="_00">00</string>
+    <string name="per_week">per week.</string>
+    <string name="_0">0</string>
+    <string name="calculate">CALCULATE</string>
+</resources>
